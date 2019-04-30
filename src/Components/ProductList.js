@@ -25,7 +25,7 @@ class ProductList extends Component {
    state = {
       full_data: [],
       display_data: [],
-      itration: 5,
+      itration: 6,
       start_index: 0,
       starting_page: 0,
       last_page: 0,
