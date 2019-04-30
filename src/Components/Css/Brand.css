@@ -1,0 +1,35 @@
+ul.brand-container {
+    width: 246px;
+    margin: 0;
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    color: white;
+    padding: 10px;
+    top: 68px;
+    left: 0;
+    list-style: none;
+    background: linear-gradient(to bottom, #797988 0%, #060606 100%);
+}
+
+ul.brand-container li {
+    padding: 11px;
+    cursor: pointer;
+}
+
+ul.brand-container li {
+    background: linear-gradient(to bottom, #a1a1c5 0%, #060606 100%);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition:0.3s;
+}
+
+ul.brand-container li:hover {
+    background:black;
+    color:white;
+}
+
+.item-box {
+    max-width: 250px;
+}
